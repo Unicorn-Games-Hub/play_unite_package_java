@@ -21,18 +21,18 @@ Open the project directory in Android Studio.
 Add Internet Permission
 
 Add the following line to your AndroidManifest.xml to allow the app to access the internet:
+Copy code
 
 ```xml
-Copy code
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
 ## Include Dependencies
 
 Add the following dependency to your build.gradle file:
+Copy code
 
 ```gradle
-Copy code
 dependencies {
 implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
 }
